@@ -1,0 +1,74 @@
+Create a modern, fast-loading, production-ready Next.js 15 (App Router) single-page application (SPA) for **Handy On Cleaning Services** — a professional, reliable, and friendly cleaning company operating in Gauteng, South Africa (Johannesburg, Pretoria and surrounding areas).
+
+Brand vibe: Warm, trustworthy, approachable, premium yet down-to-earth. Use soft peach/orange accents (#FF7F50 or similar), fresh teal (#00C4B4), clean whites, and soft neutrals. Friendly watercolor/illustration style matching the flyer aesthetic.
+
+Primary colors:
+- Accent: Soft peach/orange (#FF7F50)
+- Main service color: Fresh teal (#00C4B4)
+- Background: Pure white / off-white
+- Text: Deep charcoal with teal/peach highlights
+
+Tech stack: Next.js 15 App Router + TypeScript + Tailwind CSS + shadcn/ui + framer-motion + React Hook Form + Zod + Lucide icons.
+
+Fully responsive, mobile-first, WCAG AA accessible, subtle elegant animations, optional dark mode, perfect SEO, Next/Image optimization, ready for Vercel deployment.
+
+Exact structure (single-page SPA):
+
+1. **Hero Section** (full viewport)
+   - Background: Clean, bright modern home interior with subtle sparkle
+   - Headline: "Making Gauteng Shine, One Clean at a Time"
+   - Subheadline: "Professional residential, office & commercial cleaning services across Johannesburg, Pretoria and surrounding areas"
+   - Strong CTAs: "Get Your Free Quote" (peach) + "Call/WhatsApp Now" (teal)
+
+2. **Our Cleaning Services** (6 elegant cards with icons)
+   - Residential Cleaning
+   - Office & Commercial Cleaning
+   - Deep Cleans
+   - Move-In / Move-Out Cleaning
+   - Specialty Cleaning (Windows, Carpets, Upholstery)
+   - One-Time Deep Cleans
+
+3. **Cleaning Frequency Plans**
+   - One-Time Deep Cleans
+   - Weekly / Bi-Weekly
+   - Monthly Refresh Plans
+
+4. **About Handy On**
+   - Warm, personal section explaining the company is hands-on, reliable, and passionate about making Gauteng homes and offices sparkle.
+   - Include illustration-style team/founder image placeholder.
+
+5. **Gallery / Before & After**
+   - Responsive grid or carousel with impressive cleaning transformations.
+
+6. **Testimonials**
+   - Smooth framer-motion carousel with 5 Gauteng client quotes and star ratings.
+
+7. **Locations We Serve**
+   - Pretoria, Johannesburg and surrounding areas (with note: "Contact us to confirm your area!")
+
+8. **Contact Form** (beautiful, prominent)
+   - Fields: Full Name, Phone Number, Email, Service Type (dropdown), Preferred Date, Message
+   - Uses React Hook Form + Zod validation
+   - Submit to FormBold (use placeholder URL)
+   - Success toast with real contact details
+
+9. **Footer**
+   - Logo + tagline
+   - Quick links
+   - Contact: +27 071 395 3673 | Eleezy90@gmail.com
+   - WhatsApp floating button (already in layout)
+   - Google Maps embed centered on Gauteng
+   - Social icons + "Proudly serving Gauteng"
+
+Additional mandatory requirements:
+- Full Next.js Metadata + Open Graph tags with SEO keywords (professional cleaning Johannesburg, deep cleaning Pretoria, office cleaning Gauteng, carpet cleaning, move out cleaning, etc.)
+- Perfect Lighthouse score target (90+ in all categories)
+- All images optimized with Next/Image + alt text
+- Smooth scrolling, loading states, micro-interactions
+- Legal links (Privacy Policy, Terms) in footer
+- Clean, well-commented code with proper folder structure
+- Ready for immediate Vercel deployment (GitHub auto-deploy ready)
+
+Generate the complete project with layout.tsx, page.tsx, all components, globals.css with custom colors, and Tailwind config.
+
+Make the website feel premium, trustworthy, warm, and professional — exactly like the "Handy On" flyer but elevated into a high-converting modern website.
