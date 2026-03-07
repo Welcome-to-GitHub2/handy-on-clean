@@ -55,7 +55,7 @@ Exact structure (single-page SPA):
 9. **Footer**
    - Logo + tagline
    - Quick links
-   - Contact: +27 071 395 3673 | Eleezy90@gmail.com
+   - Contact: +27 71 395 3673 | Eleezy90@gmail.com
    - WhatsApp floating button (already in layout)
    - Google Maps embed centered on Gauteng
    - Social icons + "Proudly serving Gauteng"
