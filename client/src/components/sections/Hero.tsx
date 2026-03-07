@@ -4,7 +4,7 @@ import { Phone } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex items-center justify-center pt-20 overflow-hidden">
+    <section className="relative min-h-[100svh] flex items-center justify-center pt-20 pb-32 md:pb-20 overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         {/* landing page hero modern bright home interior */}
@@ -26,7 +26,7 @@ export function Hero() {
             <span className="inline-block py-1 px-3 rounded-full bg-primary/20 border border-primary/30 text-primary-foreground font-medium text-sm mb-6 backdrop-blur-sm">
               ✨ Premium Cleaning in Gauteng
             </span>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.1] mb-6 text-balance">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.1] mb-6 text-balance">
               Making Gauteng Shine, <span className="text-secondary">One Clean at a Time.</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
@@ -47,20 +47,20 @@ export function Hero() {
                 className="bg-white/10 hover:bg-white/20 text-white border-white/30 text-lg h-14 px-8 rounded-full backdrop-blur-md transition-all hover:-translate-y-1"
                 asChild
               >
-                <a href="tel:+270713953673" className="flex items-center gap-2">
+                <a href="tel:+27713953673" className="flex items-center gap-2">
                   <Phone className="w-5 h-5 text-primary" />
                   Call Now
                 </a>
               </Button>
             </div>
             
-            <div className="mt-12 flex items-center gap-4 text-slate-300 text-sm font-medium">
+            <div className="mt-12 mb-8 flex items-center gap-4 text-slate-300 text-sm font-medium">
               <div className="flex -space-x-3">
                 <div className="w-10 h-10 rounded-full border-2 border-slate-800 bg-slate-300"></div>
                 <div className="w-10 h-10 rounded-full border-2 border-slate-800 bg-slate-400"></div>
                 <div className="w-10 h-10 rounded-full border-2 border-slate-800 bg-slate-500"></div>
               </div>
-              <p>Trusted by 500+ happy clients in Gauteng</p>
+              <p>Trusted by 180+ happy clients in Gauteng</p>
             </div>
           </motion.div>
         </div>
