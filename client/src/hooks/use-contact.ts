@@ -6,23 +6,31 @@ export function useCreateContact() {
   const { toast } = useToast();
   
   return useMutation({
-    mutationFn: async (data: ContactMessageInput) => {
-      const res = await fetch(api.contact.create.path, {
-        method: api.contact.create.method,
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
-      });
-      
-      if (!res.ok) {
-        if (res.status === 400) {
-          const error = api.contact.create.responses[400].parse(await res.json());
-          throw new Error(error.message);
-        }
-        throw new Error("Failed to send message. Please try again.");
-      }
-      
-      return api.contact.create.responses[201].parse(await res.json());
-    },
+ mutationFn: async (data: ContactMessageInput) => {
+  const message = `
+🚿 *NEW CLEANING REQUEST*
+
+👤 Name: ${data.name}
+📞 Phone: ${data.phone}
+📧 Email: ${data.email}
+
+🧹 Service: ${data.serviceType}
+📅 Date: ${data.preferredDate}
+
+📝 Details:
+${data.message}
+
+📍 Source: Website
+`;
+
+  const encodedMessage = encodeURIComponent(message);
+
+  const whatsappUrl = `https://wa.me/27713953673?text=${encodedMessage}`;
+
+  window.open(whatsappUrl, "_blank");
+
+  return { success: true }; // fake success for React Query
+},
     onSuccess: () => {
       toast({
         title: "Message sent successfully! ✨",

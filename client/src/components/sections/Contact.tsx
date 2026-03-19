@@ -128,10 +128,10 @@ ${data.message || "None"}
                     Email Us
                   </p>
                   <a
-                    href="mailto:Eleezy90@gmail.com"
+                    href="mailto:handyoncleaningservices@gmail.com"
                     className="text-xl font-bold hover:text-secondary transition-colors"
                   >
-                    Eleezy90@gmail.com
+                   handyoncleaningservices@gmail.com
                   </a>
                 </div>
               </div>

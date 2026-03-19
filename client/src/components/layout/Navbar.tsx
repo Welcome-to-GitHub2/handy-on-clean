@@ -33,9 +33,13 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white shadow-lg shadow-primary/25 group-hover:scale-105 transition-transform">
-              <Sparkles className="w-6 h-6" />
-            </div>
+            <div className="w-9 h-9 rounded-xl bg-white p-1 shadow-lg shadow-primary/25 group-hover:scale-105 transition-transform flex items-center justify-center">
+  <img
+    src="/logo.png"
+    alt="Handy On Cleaning Services"
+    className="w-full h-full object-contain rounded-md"
+  />
+</div>
             <div className="flex flex-col">
               <span className={`text-xl font-bold leading-tight ${isScrolled ? 'text-foreground' : 'text-foreground lg:text-white'}`}>
                 Handy On
